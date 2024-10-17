@@ -1,7 +1,3 @@
-# Module 4 Coding Assignment
-
-Coursera course: [HTML, CSS, and Javascript for Web Developers](https://www.coursera.org/learn/html-css-javascript-for-web-developers)
-
 **Let's write a little bit of Javascript programming code to practice what we've learned!
 Woohoo! :-)**
 
@@ -27,14 +23,14 @@ Here is what you will need to do in order to complete the assignment:
 <br><br>
 This will update your local copy of the repository with whatever changes have been made since the last update.
 <br><br>
-**As a reminder, the full repository URL is:
-https://github.com/jhu-ep-coursera/fullstack-course4**
+**As a reminder, the full repository URL is:: https://github.com/jhu-ep-coursera/fullstack-course4
+  
 
 5. Once the local repository on your system is up to date, **YOU HAVE A CHOICE**!
 If you want a _slightly_ more challenging assignment, use the code in the "harder" folder as your starting point. If you want a _slightly_ less challenging assignment, use the code in the "easier" folder as your starting point. The _difference_ between the two starting points is that in the "easier" starting point, there are a few steps that are already completed for you.
-  * **Harder**: If you want a _slightly_ more challenging assignment, copy all the contents of the `fullstack-course4/assignments/assignment4/assignment4-solution-starter/harder` folder into your newly created solutions container folder for this assignment, e.g., 'module4-solution'.
+  * **Harder**: If you want a _slightly_ more challenging assignment, copy all the contents of the  folder into your newly created solutions container folder for this assignment, e.g., 'module4-solution'.
 
-  * **Easier**: If you want a _slightly_ less challenging assignment, copy all the contents of the `fullstack-course4/assignments/assignment4/assignment4-solution-starter/easier` folder into your newly created solutions container folder for this assignment, e.g., 'module4-solution'.
+  * **Easier**: If you want a _slightly_ less challenging assignment, copy all the contents of the folder into your newly created solutions container folder for this assignment, e.g., 'module4-solution'.
   <br><br>
   **NOTE: the provided starter code will not run. It is up to you to follow the instructions to get it to run.** Once you've copied the starter code of your choice into your solution folder, open up your solution folder in the code editor. **Open up `script.js` file and follow the steps.**
 
