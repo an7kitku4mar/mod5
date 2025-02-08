@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Responsive Layout</title>
+    <style>
+        /********** Base styles **********/
+        
+        * {
+            box-sizing: border-box;
+            color: ghostwhite;
+        }
+        
+        .nava {
+            background-color: navajowhite;
+        }
+        
+        .red {
+            background-color: red;
+        }
+        
+        .pink {
+            background-color: pink;
+        }
+        
+        h1 {
+            margin-bottom: 15px;
+            text-align: center;
+        }
+        
+        body {
+            background-color: black;
+        }
+        
+        h2 {
+            text-align: right;
+            border-bottom: 1px solid black;
+            border-left: 1px solid black;
+            margin-top: -7px;
+            margin-right: -8px;
+            padding-right: 10px;
+            width: auto;
+            justify-content: space-around;
+        }
+        
+        .column {
+            float: left;
+            width: 33.33%;
+            padding: 8px 10px;
+            height: 200px;
+        }
+        
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        
+        .row {
+            width: 100%;
+        }
+        /********** Large devices only **********/
+        
+        @media (min-width: 1200px) {
+            * {
+                box-sizing: border-box;
+            }
+            h1 {
+                margin-bottom: 15px;
+                text-align: center;
+            }
+            h2 {
+                text-align: right;
+                border: 1px solid black;
+                margin-top: -5px;
+                margin-right: -10px;
+                padding-right: -80px;
+            }
+            .column {
+                float: left;
+                width: 33.33%;
+                padding: 10px;
+                height: 100px;
+            }
+            .row:after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+            .row {
+                width: 100%;
+            }
+        }
+        /********** Medium devices only **********/
+        
+        @media (min-width: 950px) and (max-width: 1199px) {
+            * {
+                box-sizing: border-box;
+            }
+            h1 {
+                margin-bottom: 15px;
+                text-align: center;
+            }
+            h2 {
+                text-align: right;
+                border: 1px solid black;
+                margin-top: -5px;
+                margin-right: -10px;
+                padding-right: -80px;
+                background-color: navajowhite;
+            }
+            .column {
+                float: left;
+                width: 33.33%;
+                padding: 10px;
+                height: 100px;
+            }
+            .row:after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+            .row {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Our menu</h1>
+
+    <div class="content">
+        <div class="row">
+            <div class="column" style="background-color:grey;">
+                <h2 class="pink" style="color:black;">chicken</h2>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dghj</p>
+            </div>
+            <div class="column" style="background-color:darkgrey;">
+                <h2 class="nava" style="color:black;">sushi</h2>
+                <p>Some text..</p>
+            </div>
+            <div class="column" style="background-color:grey;">
+                <h2 class="red" style="color:black;">beef</h2>
+                <p>Some text..</p>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
