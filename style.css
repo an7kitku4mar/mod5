@@ -1,0 +1,128 @@
+      
+        * {
+            box-sizing: border-box;
+            color: ghostwhite;
+        }
+        .navbar-brand, .navbar-expand-lg, .navbar-nav, .navbar-toggler-icon, .nav-item, .d-flex {
+      background-color: blueviolet;
+      color: white;
+   
+    }
+    .container-fluid {
+      background-color: black;
+      border: 10px solid black;
+
+    }
+        .nava {
+            background-color: navajowhite;
+        }
+        
+        .red {
+            background-color: red;
+        }
+        
+        .pink {
+            background-color: pink;
+        }
+        
+        h1 {
+            margin-bottom: 15px;
+            text-align: center;
+        }
+        
+        body {
+            background-color: black;
+        }
+        
+        h2 {
+            text-align: right;
+            border-bottom: 1px solid black;
+            border-left: 1px solid black;
+            margin-top: -7px;
+            margin-right: -8px;
+            padding-right: 10px;
+            width: auto;
+            justify-content: space-around;
+        }
+        
+        .column {
+            float: left;
+            width: 33.33%;
+            padding: 8px 10px;
+            height: 200px;
+        }
+        
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        
+        .row {
+            width: 100%;
+        }
+        /********** Large devices only **********/
+        
+        @media (min-width: 1200px) {
+            * {
+                box-sizing: border-box;
+            }
+            h1 {
+                margin-bottom: 15px;
+                text-align: center;
+            }
+            h2 {
+                text-align: right;
+                border: 1px solid black;
+                margin-top: -5px;
+                margin-right: -10px;
+                padding-right: -80px;
+            }
+            .column {
+                float: left;
+                width: 33.33%;
+                padding: 10px;
+                height: 100px;
+            }
+            .row:after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+            .row {
+                width: 100%;
+            }
+        }
+        /********** Medium devices only **********/
+        
+        @media (min-width: 950px) and (max-width: 1199px) {
+            * {
+                box-sizing: border-box;
+            }
+            h1 {
+                margin-bottom: 15px;
+                text-align: center;
+            }
+            h2 {
+                text-align: right;
+                border: 1px solid black;
+                margin-top: -5px;
+                margin-right: -10px;
+                padding-right: -80px;
+                background-color: navajowhite;
+            }
+            .column {
+                float: left;
+                width: 33.33%;
+                padding: 10px;
+                height: 100px;
+            }
+            .row:after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+            .row {
+                width: 100%;
+            }
+        }
